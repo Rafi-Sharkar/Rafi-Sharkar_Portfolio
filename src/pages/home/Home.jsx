@@ -4,7 +4,6 @@ import { PiGithubLogoFill } from "react-icons/pi";
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineCastForEducation } from "react-icons/md";
 import { GiCheckMark } from "react-icons/gi";
-import photo_01 from '../../assets/photos/Champion_01.png'
 import ProjectCard from '../../global components/project_card/ProjectCard';
 import Contact from '../contact/Contact'
 import { Self } from '../../assets/data/data/'
@@ -41,7 +40,7 @@ export default function Home() {
       <div className='flex flex-col md:flex-row md:justify-center items-center'>
         <div className='md:w-[30%] md:flex'>
         <div className=' w-[300px] h-[300px] border-gray-500 border-2 rounded-[25px] overflow-hidden'>
-          <img className='' src={Self.profile_pic} alt="Image is not found" />
+          <img src={Self.profile_pic} alt="Image is not found" />
         </div>
         </div>
         <div className='md:w-[50%] flex flex-col justify-center items-center my-7'>

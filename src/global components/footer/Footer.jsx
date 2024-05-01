@@ -6,6 +6,8 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import photo_01 from '../../assets/photos/Rafi_tab_icon.png'
+import { Link } from 'react-router-dom';
+import { Self } from '../../assets/data/data'
 
 // bg-gradient-to-r from-[#00093c] to-[#2d0b00]         colorfull background
 
@@ -29,11 +31,11 @@ export default function Footer() {
             <div className="basis-[25%] p-[10px]">
                 <h3 className='font-bold w-fit mb-[40px] relative'>Link <div className='w-[100%] h-[5px] bg-[#767676] rounded-[3px] absolute top-[25px] left-[0px]'></div></h3>
                 <ul className='leading-[10px]'>
-                    <p className='list-none mb-[12px] '><a className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' href="">Home</a></p>
-                    <p className='list-none mb-[12px] '><a className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' href="">Certificate</a></p>
-                    <p className='list-none mb-[12px] '><a className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' href="">Projects</a></p>
-                    <p className='list-none mb-[12px] '><a className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' href="">Gallery</a></p>
-                    <p className='list-none mb-[12px] '><a className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' href="">Contacts</a></p>
+                    <p className='list-none mb-[12px] '><Link className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' to="/">Home</Link></p>
+                    <p className='list-none mb-[12px] '><Link className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' to="/certificates">Certificate</Link></p>
+                    <p className='list-none mb-[12px] '><Link className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' to="/projects">Projects</Link></p>
+                    <p className='list-none mb-[12px] '><Link className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' to="/gallery">Gallery</Link></p>
+                    <p className='list-none mb-[12px] '><Link className='text-white-400 hover:text-blue-800 hover:text-[.9rem]' to="/contact">Contacts</Link></p>
 
                 </ul>
             </div>
@@ -45,10 +47,10 @@ export default function Footer() {
                     <button type='submit' className='bg-white text-[black] p-[3.5px] rounded-[2px]'><FaArrowRightLong/></button>
                 </form>
                 <div className='flex justify-center gap-4 text-4xl'>
-                    <FaFacebook />
-                    <AiFillInstagram />
-                    <FaLinkedin />
-                    <FaSquareGithub />
+                    <Link to={Self.FB_link} target='_blank'><FaFacebook /></Link>
+                    <Link to={Self.IG_link} target='_blank'><AiFillInstagram /></Link>
+                    <Link to={Self.LI_link} target='_blank'><FaLinkedin /></Link>
+                    <Link to={Self.GH_link} target='_blank'><FaSquareGithub /></Link>
                 </div>
             </div>
             <hr className='w-[90%] border-b-[1px] border-[#ccc] m-auto'/>
