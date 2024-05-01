@@ -8,7 +8,7 @@ export default function Navbar() {
 
 
   return (
-    <div className='font-[Poppins]'>
+    <div className='font-[Poppins] z-[999]'>
       <div className='bg-white pb-[11px] border-b-[1px] border-black'>
       <nav className='flex flex-wrap justify-between items-center w-[92%] mx-auto'>
         <div>

@@ -7,10 +7,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import photo_01 from '../../assets/photos/Rafi_tab_icon.png'
 
+// bg-gradient-to-r from-[#00093c] to-[#2d0b00]         colorfull background
 
 export default function Footer() {
   return (
-    <div className='w-[100%] absolute bottom-0 bg-gradient-to-r from-[#00093c] to-[#2d0b00] text-white px-0 pt-[60px] pb-[0px] rounded-tl-[125px] text-[13px] leading-[20px] overflow-hidden'>
+    <div className='w-[100%] bg-gradient-to-b from-gray-600 to-gray-950 text-white px-0 pt-[60px] pb-[0px] rounded-tl-[125px] text-[13px] overflow-hidden'>
         <div className='w-[85%] m-auto flex flex-wrap justify-between items-start '>
             <div className="basis-[100%] md:basis-[25%] p-[10px]">
                 <img className='w-[80px] mb-[30px]' height={'100px'} width={'100px'} src={photo_01} alt="Image is not found"/>

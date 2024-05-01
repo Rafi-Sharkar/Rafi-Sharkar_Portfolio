@@ -11,7 +11,7 @@ export default function Contact() {
         <p>Get in touch</p>
         <h2 className='text-4xl font-bold'>CONTACT</h2>
       </div>
-      <div className='px-[2rem] mt-9 flex flex-wrap justify-center gap-20 md:gap-4'>
+      <div className='px-[2rem] mt-9 flex flex-wrap justify-center gap-20 md:gap-4 pb-10'>
         <div className='w-[49%] flex flex-col items-center gap-4 '>
  
           <div className='w-[360px] flex items-center bg-gray-800 text-gray-100 rounded-[6px] h-[12vh]'>
@@ -50,7 +50,7 @@ export default function Contact() {
           </form>
         </div>
       </div>
-
+      <Footer />
     </div>
   )
 }
