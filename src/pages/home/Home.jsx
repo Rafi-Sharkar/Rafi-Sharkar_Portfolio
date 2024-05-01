@@ -7,7 +7,8 @@ import { GiCheckMark } from "react-icons/gi";
 import photo_01 from '../../assets/photos/Champion_01.png'
 import ProjectCard from '../../global components/project_card/ProjectCard';
 import Contact from '../contact/Contact'
-import Footer from '../../global components/footer/Footer';
+import { Self } from '../../assets/data/data/'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -15,19 +16,19 @@ export default function Home() {
     {/* Profile Section */}
     <div className='flex justify-center items-center bg-gray-100 p-4 w-full md:gap-[5rem] md:h-[89.5vh] border-b-2 border-black md:py-[7rem] flex-wrap'>
       <div className='relative w-[350px] h-[350px] border-2 border-black rounded-[50%] overflow-hidden'>
-        <img className='object-cover absolute top-[13.8rem] left-3 scale-[2]' src={photo_01} alt="image is not found" />
+        <img className='object-cover absolute top-[13.8rem] left-3 scale-[2]' src={Self.profile_pic} alt="image is not found" />
       </div>
       <div className='w-[450px] pt-7 flex flex-col items-center gap-[15px]'>
         <p className='text-s font-semibold mb-[-8px] text-gray-400'>Hello, I'm</p>
-        <h2 className='text-4xl font-bold my-0'>Rafi Sharkar</h2>
-        <h3 className='text-2xl font-semibold text-gray-500 mt-[-10px]'>Frontend Developer</h3>
+        <h2 className='text-4xl font-bold my-0'>{Self.name}</h2>
+        <h3 className='text-2xl font-semibold text-gray-500 mt-[-10px]'>{Self.job_title}</h3>
         <div className='w-full flex justify-center gap-8'>
-          <button className='border border-black py-2 px-4 rounded-[35px] font-semibold'>Download CV</button>
-          <button className='border  border-black bg-black text-white font-semibold py-2 px-4 rounded-[35px]'>Contact Info</button>
+          <a href={Self.CV_down} download='Rafi Sharkar CV' className='cursor-pointer border border-black py-2 px-4 rounded-[35px] font-semibold'>Download CV</a>
+          <Link to={'/contact'} className='border  border-black bg-black text-white font-semibold py-2 px-4 rounded-[35px]'>Contact Info</Link>
         </div>
         <div className='flex gap-6'>
-          <button className='w-[40px] h-[40px] flex justify-center items-center bg-black text-white text-[25px] rounded-[50%] border border-black'><FaLinkedinIn/></button>
-          <button className='w-[40px] h-[40px] flex justify-center items-center bg-black text-white text-[30px] rounded-[50%] border border-black'><PiGithubLogoFill/></button>
+          <Link to={Self.LI_link} target='_blank' className='w-[40px] h-[40px] flex justify-center items-center bg-black text-white text-[25px] rounded-[50%] border border-black'><FaLinkedinIn/></Link>
+          <Link to={Self.GH_link} target='_blank' className='w-[40px] h-[40px] flex justify-center items-center bg-black text-white text-[30px] rounded-[50%] border border-black'><PiGithubLogoFill/></Link>
         </div>
       </div>
     </div>
@@ -40,7 +41,7 @@ export default function Home() {
       <div className='flex flex-col md:flex-row md:justify-center items-center'>
         <div className='md:w-[30%] md:flex'>
         <div className=' w-[300px] h-[300px] border-gray-500 border-2 rounded-[25px] overflow-hidden'>
-          <img className='' src={photo_01} alt="Image is not found" />
+          <img className='' src={Self.profile_pic} alt="Image is not found" />
         </div>
         </div>
         <div className='md:w-[50%] flex flex-col justify-center items-center my-7'>
