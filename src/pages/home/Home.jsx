@@ -8,6 +8,7 @@ import ProjectCard from '../../global components/project_card/ProjectCard';
 import Contact from '../contact/Contact'
 import { Self } from '../../assets/data/data/'
 import { Link } from 'react-router-dom';
+import { Projects1 } from '../../assets/data/data';
 
 export default function Home() {
   return (
@@ -211,10 +212,11 @@ export default function Home() {
         <h2 className='text-4xl font-bold'>Projects</h2>
       </div>
       <div className='flex flex-wrap justify-center items-center py-6 px-3 gap-5'>
-        <ProjectCard/> 
-        <ProjectCard/> 
-        <ProjectCard/> 
-        <ProjectCard/> 
+        {
+          Projects1.map((project,i)=>{
+            return(<ProjectCard img={project.img} name={project.name} scode={project.scode} link={project.scode} />)
+          })
+        }
       </div>
     </div>
     {/* Contact Section */}

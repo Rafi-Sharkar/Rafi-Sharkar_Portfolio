@@ -1,17 +1,19 @@
 import React from 'react'
 import Photo from '../../assets/photos/Champion_01.png'
+import { Link } from 'react-router-dom';
 
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
+
   return (
     <div className=' bg-gray-700 w-[350px] h-[490px] flex flex-col items-center justify-center border-2 border-gray-700 rounded-[20px] overflow-hidden'>
       <div className='w-[280px] h-[300px] rounded-[20px] overflow-hidden'>
-        <img src={Photo} alt="Image is not found" />
+        <img src={props.img} alt="Image is not found" />
       </div>
-      <h2 className='text-3xl font-bold py-5 text-white'>Project One</h2>
+      <h2 className='text-3xl font-bold py-5 text-white'>{props.name}</h2>
       <div className='flex gap-8'>
-        <button className='border-2 border-green-500 text-l py-2 px-5 rounded-[20px] text-white font-bold'>GitHub</button>
-        <button className='border-2 border-green-500 text-l py-2 px-5 rounded-[20px] text-white font-bold'>Live Demo</button>
+        <button className='border-2 border-green-500 text-l py-2 px-5 rounded-[20px] text-white font-bold'><Link to={props.scode} target='_blank'>GitHub</Link></button>
+        <button className='border-2 border-green-500 text-l py-2 px-5 rounded-[20px] text-white font-bold'><Link to={props.link} target='_blank'>Live Demo</Link></button>
       </div>
     </div>
   )

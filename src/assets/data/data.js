@@ -6,16 +6,15 @@ import Photo_004 from '../photos/Photo_004.jpg'
 import Photo_005 from '../photos/Photo_005.jpg'
 import Photo_006 from '../photos/Photo_006.jpg'
 import Photo_007 from '../photos/Photo_007.jpg'
-import Photo_008 from '../photos/Photo_008.jpg'
-import Photo_009 from '../photos/Photo_009.jpg'
-import Photo_010 from '../photos/Photo_010.jpg'
 import RS_001 from '../photos/RS_001.jpg'
 import RS_002 from '../photos/RS_002.jpg'
 
-import Photo_1001 from '../photos/Photo_1001.jpg'
-import Photo_1002 from '../photos/Photo_1002.jpg'
+import rentonProject02 from '../photos/RentOnProject02.jpg'
+import hexashop from '../photos/hexashop.jpg'
+import portfolio from '../photos/RSportfolio.jpg'
+import kmeanCluster from '../photos/kmeanCluster.jpg'
 
-import Photo_01 from '../photos/Champion_01.png'
+import ciscoCG from '../photos/CiscoCF.jpeg'
 
 import Self_CV from '../documents/Rafi_Sharkar CV_3.pdf'
 
@@ -26,48 +25,37 @@ export const Gallery_01 = [
     {img: Photo_002},
     {img: Photo_003},
     {img: Photo_004},
-    {img: Photo_005},
     {img: Photo_006},
     {img: Photo_007},
-    {img: Photo_008},
-    {img: Photo_009},
-    {img: Photo_010},
 ]
 
 export const Cert = [
-    {img: Photo_1001},
-    {img: Photo_1002},
-    {img: Photo_1001},
-    {img: Photo_1002},
-    {img: Photo_1001},
-    {img: Photo_1002},
-    {img: Photo_1001},
-    {img: Photo_1002}
+    {img: ciscoCG}
 ]
 
-export const Projects = [
+export const Projects1 = [
     {
-        name: "Basic Portfolio",
-        img: "",
-        scode: "https://github.com/Rafi-Sharkar/Selver_portfolio_01",
+        name: "Rent On",
+        img: rentonProject02,
+        scode: "https://github.com/Rafi-Sharkar/Rent-Now",
         link: ""
     },
     {
-        name: "Premium Portfolio",
-        img: "",
+        name: "HEXA Shop",
+        img: hexashop,
+        scode: "https://github.com/Rafi-Sharkar/Hexa-Shop",
+        link: ""
+    },
+    {
+        name: "Rafi SharKar",
+        img: portfolio,
         scode: "https://github.com/Rafi-Sharkar/Gold_portfolio_01",
         link: ""
     },
     {
         name: "K-mean Cluster",
-        img: "",
+        img: kmeanCluster,
         scode: "https://github.com/Rafi-Sharkar/Data_mining_-_Data_warehouse",
-        link: ""
-    },
-    {
-        name: "Online Shop",
-        img: "",
-        scode: "https://github.com/IsmailHosen25/onlineshop.git",
         link: ""
     },
 ]
