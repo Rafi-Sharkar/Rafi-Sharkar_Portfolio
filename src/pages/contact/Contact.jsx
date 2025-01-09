@@ -16,7 +16,7 @@ export default function Contact() {
  
           <div className='w-[360px] flex items-center bg-gray-800 text-gray-100 rounded-[6px] h-[12vh]'>
             <div className='w-[45px] h-[45px] ml-5 mr-3 flex justify-center items-center bg-gray-900 text-2xl text-white rounded-[50%]'><FaPhoneAlt/></div>
-            <p>+880 - 1905493909</p>
+            <p>+8801905493909</p>
           </div>
 
           <div className='w-[360px] flex items-center bg-gray-800 text-gray-100 rounded-[6px] h-[12vh]'>
@@ -24,6 +24,10 @@ export default function Contact() {
             <p>rafisharkar144@gmail.com</p>
           </div>
 
+          <div className='w-[360px] flex items-center bg-gray-800 text-gray-100 rounded-[6px] h-[12vh]'>
+            <div className='w-[45px] h-[45px] ml-5 mr-3 flex justify-center items-center bg-gray-900 text-2xl text-white rounded-[50%]'><FaLocationDot/></div>
+            <p>A-Block, Bashundhara R/A, Dhaka</p>
+          </div>
           <div className='w-[360px] flex items-center bg-gray-800 text-gray-100 rounded-[6px] h-[12vh]'>
             <div className='w-[45px] h-[45px] ml-5 mr-3 flex justify-center items-center bg-gray-900 text-2xl text-white rounded-[50%]'><FaLocationDot/></div>
             <p>Chashara, Narayanganj, Dhaka</p>

@@ -12,7 +12,7 @@ export default function Gallery() {
         {Gallery_01.map((item, i)=>{
           return(
           <div key={i} className='w-[300px] h-[200px] border-2 border-gray-600 rounded-[20px] flex justify-center items-center overflow-hidden'  >
-            <img className='object-cover scale-[1]' src={item.img} alt="Image is not found" />
+            <img className='object-fill scale-[1.19]' src={item.img} alt="Image is not found" />
           </div>)
         })}
       </div>

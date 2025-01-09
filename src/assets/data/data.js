@@ -9,6 +9,8 @@ import Photo_007 from '../photos/Photo_007.jpg'
 import Photo_008 from '../photos/Photo_008.jpg'
 import Photo_009 from '../photos/Photo_009.jpg'
 import Photo_010 from '../photos/Photo_010.jpg'
+import RS_001 from '../photos/RS_001.jpg'
+import RS_002 from '../photos/RS_002.jpg'
 
 import Photo_1001 from '../photos/Photo_1001.jpg'
 import Photo_1002 from '../photos/Photo_1002.jpg'
@@ -43,11 +45,38 @@ export const Cert = [
     {img: Photo_1002}
 ]
 
+export const Projects = [
+    {
+        name: "Basic Portfolio",
+        img: "",
+        scode: "https://github.com/Rafi-Sharkar/Selver_portfolio_01",
+        link: ""
+    },
+    {
+        name: "Premium Portfolio",
+        img: "",
+        scode: "https://github.com/Rafi-Sharkar/Gold_portfolio_01",
+        link: ""
+    },
+    {
+        name: "K-mean Cluster",
+        img: "",
+        scode: "https://github.com/Rafi-Sharkar/Data_mining_-_Data_warehouse",
+        link: ""
+    },
+    {
+        name: "Online Shop",
+        img: "",
+        scode: "https://github.com/IsmailHosen25/onlineshop.git",
+        link: ""
+    },
+]
+
 export const Self = 
     {
         name: "Rafi Sharkar",
-        job_title: "Frontend Developer",
-        profile_pic: Photo_01,
+        job_title: "FullStack Developer",
+        profile_pic: RS_002,
         FB_link: "https://www.facebook.com/rafi.sharkar.90/",
         IG_link: "https://www.instagram.com/rafi_sharkar_0777/",
         GH_link: "https://github.com/Rafi-Sharkar",

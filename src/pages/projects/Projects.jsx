@@ -10,11 +10,6 @@ export default function Projects() {
       </div>
       <div className='flex flex-wrap justify-center gap-5 my-3 mx-1 py-5'>
         <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
       </div>
       <Footer />
     </div>
