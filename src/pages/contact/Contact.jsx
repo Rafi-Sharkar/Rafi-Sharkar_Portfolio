@@ -35,18 +35,18 @@ export default function Contact() {
 
         </div>
         <div className='w-[49%] flex justify-center'>
-          <form className='flex flex-col gap-3'>
+          <form className='flex flex-col gap-3 '>
             <div>
               <p>Your name</p>
-              <input type="text" className='bg-gray-400 outline-none rounded-[4px] pl-1 p-1 w-[400px]' required/>
+              <input type="text" className='bg-gray-400 outline-none rounded-[4px] pl-1 p-1 w-[360px]' required/>
             </div>
             <div>
               <p>Your email</p>
-              <input type="email" className='bg-gray-400 outline-none rounded-[4px] pl-1 p-1 w-[400px]' required/>
+              <input type="email" className='bg-gray-400 outline-none rounded-[4px] pl-1 p-1 w-[360px]' required/>
             </div>
             <div>
               <p>Massage</p>
-              <textarea type="text" className='mt-2 bg-gray-400 rounded-[4px] w-[400px]'/>
+              <textarea type="text" className='mt-2 bg-gray-400 rounded-[4px] w-[360px]'/>
             </div>
             <div>
               <button className='bg-gray-900 text-gray-100 w-[70px] h-[30px] rounded-[6px]'>Send</button>

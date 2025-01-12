@@ -16,7 +16,7 @@ import kmeanCluster from '../photos/kmeanCluster.jpg'
 
 import ciscoCG from '../photos/CiscoCF.jpeg'
 
-import Self_CV from '../documents/Rafi_Sharkar CV_3.pdf'
+import Self_CV from '../documents/Rafi_Sharkar Resume_2025.pdf'
 
 
 export const Gallery_01 = [
