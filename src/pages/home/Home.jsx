@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
     {/* Profile Section */}
-    <div className='flex justify-center items-center bg-gray-100 p-4 w-full h-[90vh] md:gap-[5rem] md:h-[90.4vh] border-b-2 border-black md:py-[7rem] flex-wrap'>
+    <div className='flex justify-center items-center bg-gray-100 p-4 w-full h-[86.5vh] md:gap-[5rem] md:h-[90.4vh] border-b-2 border-black md:py-[7rem] flex-wrap'>
       <div className='relative w-[350px] h-[350px] border-2 border-black rounded-[50%] overflow-hidden'>
         <img className='object-cover absolute top-[7rem] left-[-7.7rem]  scale-[2.8]' src={Self.profile_pic} alt="image is not found" />
       </div>
