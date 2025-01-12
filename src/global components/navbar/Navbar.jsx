@@ -14,7 +14,7 @@ export default function Navbar() {
         <div>
           <img className='w-[100px]' src={photo_01} alt='Image is not found'/>  
         </div>
-        <div className={`md:static absolute bg-white md:min-h-fit py-3 md:w-auto w-[100%] md:m-auto transition-all duration-500 top-[6.1%] items-center px-5 ${open ? 'left-[0%]': 'left-[-100%]'} z-40`}>
+        <div className={`md:static absolute text-center bg-white md:min-h-fit py-3 md:w-auto w-[100%] md:m-auto transition-all duration-500 top-[7.9%] items-center px-5 ${open ? 'left-[0%]': 'left-[-100%]'} z-40`}>
           <ul className='flex flex-col md:flex-row md:items-center gap-2'>
             <li><Link onClick={()=>setOpen(false)} to='/' className='md:ml-8 text-xl text-black-500 font-[400] hover:text-gray-500' >Home</Link></li>
             {/* <li><Link onClick={()=>setOpen(false)} to='/about' className='md:ml-8 text-xl text-black-500 font-[400] hover:text-gray-500' >About</Link></li> */}
