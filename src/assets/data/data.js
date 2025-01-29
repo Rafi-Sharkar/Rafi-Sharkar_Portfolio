@@ -63,7 +63,7 @@ export const Projects1 = [
 export const Self = 
     {
         name: "Rafi Sharkar",
-        job_title: "FullStack Developer",
+        job_title: "Software Engineer",
         profile_pic: RS_002,
         FB_link: "https://www.facebook.com/rafi.sharkar.90/",
         IG_link: "https://www.instagram.com/rafi_sharkar_0777/",
