@@ -62,7 +62,7 @@ export default function Home() {
               <MdOutlineCastForEducation className='text-2xl'/>
               <p className='text-lg font-bold'>Education</p>
               <p className='text-s font-semibold text-gray-700'>B.Sc in CSE</p>
-              <p className='text-s font-semibold text-gray-700'>CGPA : 3.42</p>
+              <p className='text-s font-semibold text-gray-700'>CGPA : 3.30</p>
             </div>
           </div>
           <p className='text-s font-semibold text-gray-500 py-8 px-6 text-justify md:w-[80%] md:px-1'>My name is Mustakim Billah Rafi. My pivotal interest is in Data Science and AI, ML, NLP, DL. I continue my BSc degree in Computer Science and Engineering from Independent University Bangladesh. Currently, I am learning different machine learning method. I have an experience on MERN stack web development, to build requirement based user-friendly project. Also have good communication skill with team handling experience.</p>
