@@ -5,8 +5,9 @@ import { Cert } from '../../assets/data/data'
 export default function Certificates() {
   return (
     <div>
-      <div className='w-full flex justify-center bg-gray-400 text-white'>
-        <h2 className='text-4xl py-3 text-center'>Certificates <br></br> & <br></br> Achievement</h2>
+      <div className='w-full py-5  flex items-center flex-col'>
+        <p>Take a look at my</p>
+        <h2 className='text-4xl font-bold'>CERTIFICATES</h2>
       </div>
       <div className='flex flex-wrap justify-center my-3 mx-1'>
       <div className='w-full flex flex-wrap gap-5 justify-center py-10 px-5'>

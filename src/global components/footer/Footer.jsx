@@ -13,11 +13,11 @@ import { Self } from '../../assets/data/data'
 
 export default function Footer() {
   return (
-    <div className='w-[100%] bg-gradient-to-b from-gray-600 to-gray-950 text-white px-0 pt-[60px] pb-[0px] rounded-tl-[125px] text-[13px] overflow-hidden'>
+    <div className='w-[100%] bg-gradient-to-b from-gray-600 to-gray-950 text-white px-0 pt-[30px] pb-[0px] rounded-tl-[125px] text-[13px] overflow-hidden'>
         <div className='w-[85%] m-auto flex flex-wrap justify-between items-start '>
             <div className="basis-[100%] md:basis-[25%] p-[10px]">
-                <img className='w-[80px] mb-[30px]' height={'100px'} width={'100px'} src={photo_01} alt="Image is not found"/>
-                <p>Skilled in communication, teamwork, and time management, I excel at fostering collaboration and delivering results. I communicate effectively, ensuring alignment across diverse teams. A proactive team player, I support shared goals and drive successful outcomes. My organizational abilities allow me to prioritize tasks, meet deadlines, and deliver quality results under pressure.</p>
+                <img className='w-[80px] mb-[30px] rounded-xl' height={'100px'} width={'100px'} src={photo_01} alt="Image is not found"/>
+                <p>Skilled in communication, teamwork, and time management, I foster collaboration, ensure alignment, and deliver quality results through organization, adaptability, and proactive problem-solving under pressure.</p>
             </div>
             <div className="basis-[25%] p-[10px]">
                 <h3 className='font-bold w-fit mb-[40px] relative'>Home<div className='w-[100%] h-[5px] bg-[#767676] rounded-[3px] absolute top-[25px] left-[0px]'></div></h3>
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
             <hr className='w-[90%] border-b-[1px] border-[#ccc] m-auto'/>
             <div className='w-full py-[15px] flex justify-center m-auto'>
-                <p>Easy Tutorial &#169; 2024 -All Rights Reserved</p>
+                <p>&#169; 2025 Rafi Sharkar. All rights reserved.</p>
             </div>
         </div>
     </div>
