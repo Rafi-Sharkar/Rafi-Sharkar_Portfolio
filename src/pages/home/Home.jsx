@@ -70,7 +70,7 @@ export default function Home() {
           I have a strong interest in AI and Machine Learning, particularly in exploring how AI agents can effectively integrate with software systems using MCP servers. Currently pursuing a BSc in Computer Science and Engineering at Independent University, Bangladesh, I am expanding my skills in DevOps.</p>
         </div>
       </div>
-      <blockquote className='mb-5'>
+      <blockquote className='p-[2rem]'>
        <p><i>“Code with scalability, design with purpose, and learn without limits.”</i></p>
        <footer className='mt-2 text-sm not-italic text-black text-right'>— <cite>Rafi SharKar</cite></footer>
       </blockquote>
