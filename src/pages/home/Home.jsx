@@ -23,7 +23,7 @@ export default function Home() {
         <h2 className='text-4xl font-bold text-center my-0'>{Self.name}</h2>
         <h3 className='text-2xl text-center font-semibold text-gray-600 mt-[-10px]'>{Self.job_title}</h3>
         <div className='w-full flex justify-center gap-8'>
-          <a href={Self.CV_down} download='Rafi Sharkar CV' className='cursor-pointer border border-black py-2 px-4 rounded-[35px] font-semibold'>Download CV</a>
+          <a href={Self.CV_down} download='MUSTAKIM_BILLAH_RAFI' className='cursor-pointer border border-black py-2 px-4 rounded-[35px] font-semibold'>Download CV</a>
           <Link to={'/contact'} className='border  border-black bg-black text-white font-semibold py-2 px-4 rounded-[35px]'>Contact Info</Link>
         </div>
         <div className='flex gap-6'>
