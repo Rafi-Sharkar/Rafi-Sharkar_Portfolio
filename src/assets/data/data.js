@@ -20,7 +20,7 @@ import pscms from '../photos/PSCMS.jpg'
 
 import ciscoCG from '../photos/CiscoCF.jpeg'
 
-import Self_CV from '../documents/Rafi_Sharkar_CV_2025.pdf'
+import Self_CV from '../documents/MUSTAKIM_BILLAH_RAFI.pdf'
 
 
 export const Gallery_01 = [
@@ -73,7 +73,7 @@ export const Projects1 = [
 export const Self = 
     {
         name: "Mustakim Billah Rafi",
-        job_title: " Backend and System Design Enthusiast",
+        job_title: " Backend Developer",
         profile_pic: RS_002,
         cover_pic: RS_0022,
         FB_link: "https://www.facebook.com/rafi.sharkar.90/",
